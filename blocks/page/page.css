@@ -103,67 +103,12 @@ html .page {
     color: #ffffff;
 }
 
-.year_theme_brown {}
+.year_theme_brown {
+    color: #E5D3AE;
+}
 
 .year_theme_dark-brown {}
 
-
-/*first-virus*/
-.first-virus {
-    background-image: url(../../images/firstVirusBackground.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100%;
-
-    margin-top: -8px;
-}
-
-.first-virus__container {
-    display: flex;
-    /*align-items: center;*/
-    justify-content: center;
-}
-
-.first-virus__content {
-    display: flex;
-    flex-direction: column;
-}
-
-.first-virus__container-image {
-    display: flex;
-}
-
-.first-virus__text {
-    font-family: 'ArialMT';
-    font-size: 16px;
-    line-height: 19px;
-    color: #4E4E4E;
-    max-width: 395px;
-    margin: 0;
-}
-
-.first-virus__image {
-    width: 332px;
-    height: 311px;
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .first-virus__container-image {
-        flex-direction: column;
-    }
-
-    .first-virus__image {
-        width: 200px;
-        height: 200px;
-    }
-
-    .first-virus__container {
-        flex-direction: column;
-    }
-}
-
-/*virus-spread*/
-.virus-spread {}
 
 /*research*/
 .research {}

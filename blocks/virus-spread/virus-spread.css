@@ -1,0 +1,72 @@
+.virus-spread {
+    background-size: cover;
+    min-height: 100%;
+    overflow: hidden;
+    margin-top: -8px;
+}
+
+.virus-spread__title {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    margin: 0 auto;
+    text-align: center;
+    color: #6D4121;
+    padding-top: 20px;
+}
+
+.virus-spread__subtitle {
+    padding-bottom: 20px;
+}
+
+.virus-spread__image-left {
+    width: 352px;
+    height: 305px;
+}
+
+.virus-spread__image-right {
+    width: 283px;
+    height: 305px;
+}
+
+.virus-spread__container {
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .virus-spread__title {
+        padding-top: 0;
+    }
+
+    .virus-spread__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    .virus-spread__image-left {
+        width: 302px;
+        height: 205px;
+    }
+
+    .virus-spread__image-right {
+        width: 199px;
+        height: 221px;
+    }
+
+    .virus-spread__subtitle {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}

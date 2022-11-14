@@ -1,0 +1,84 @@
+.first-virus {
+    background-image: url(../../images/firstVirusBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    overflow: hidden;
+    margin-top: -8px;
+}
+
+.first-virus__title {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+
+    margin: 0 auto;
+    text-align: center;
+
+    color: #6D4121;
+
+    padding-top: 50px;
+}
+
+.first-virus__container {
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom:130px;
+}
+
+.first-virus__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-virus__container-image {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.first-virus__text {
+    font-family: 'ArialMT';
+    font-size: 16px;
+    line-height: 19px;
+    color: #4E4E4E;
+    max-width: 395px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.first-virus__text:last-child {
+    padding-bottom: 0;
+}
+
+.first-virus__image {
+    width: 332px;
+    height: 311px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first-virus__container-image {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .first-virus__image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .first-virus__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 130px;
+        padding-top: 20px;
+    }
+}
