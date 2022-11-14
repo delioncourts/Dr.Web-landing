@@ -5,7 +5,7 @@
     overflow: hidden;
 }
 
-.footer__title{
+.footer__title {
     font-family: 'Lobster';
     font-style: normal;
     font-weight: 400;
@@ -18,12 +18,13 @@
     padding-bottom: 50px;
 }
 
-.footer__subtitle{
+.footer__subtitle {
     margin: 0 auto;
     text-align: center;
     color: #FFFFFF;
     padding-bottom: 20px;
 }
+
 .footer_image {
     width: 255px;
     height: 129px;
@@ -37,19 +38,23 @@
 .footer__content {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .footer__container {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 50px;
     margin-left: 50px;
 }
 
+.footer__container:last-child {
+    margin-right: 0;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .footer__content{
+    .footer__content {
         flex-direction: column;
         gap: 20px;
     }

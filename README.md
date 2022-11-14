@@ -16,4 +16,4 @@
 
 ## Cсылка на проект 
 
-[Лендинг]()
+[Проект на GH-Pages](https://delioncourts.github.io/Dr.Web-landing/)
