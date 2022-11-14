@@ -56,9 +56,6 @@ html .page {
     font-family: 'ArialMT';
     font-size: 16px;
     line-height: 19px;
-    /*display: flex;
-    align-items: flex-end;*/
-
     color: #4E4E4E;
 
 }
@@ -73,60 +70,22 @@ html .page {
     font-weight: bold;
 }
 
-.text_theme_white-italic {}
+.text__italic {
+    font-style: italic;
+}
 
 /*image*/
 .image {}
 
-/*year*/
-.year {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 85px;
-    margin: 0;
-    writing-mode: vertical-rl;
-    letter-spacing: -7px;
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .year {
-        writing-mode: horizontal-tb;
-    }
-}
-
-.year_theme_grey {
-    color: #a9a9a9;
-}
-
-.year_theme_white {
-    color: #ffffff;
-}
-
-.year_theme_brown {
-    color: #E5D3AE;
-}
-
-.year_theme_dark-brown {}
-
-
-/*research*/
-.research {}
-
-.research__container {}
-
-.research__text-container {}
-
-/*before*/
-.before {
-    background-color: #FEFEF6;
-}
-
-/*book*/
-.book {}
 
 /*first-version*/
-.first-version {}
+.first-version {
+    background-image: url(../../images/firstVersionBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    overflow: hidden;
+}
 
 .first-version__container {}
 

@@ -1,0 +1,31 @@
+.year {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 85px;
+    margin: 0;
+    writing-mode: vertical-rl;
+    letter-spacing: -7px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .year {
+        writing-mode: horizontal-tb;
+    }
+}
+
+.year_theme_grey {
+    color: #a9a9a9;
+}
+
+.year_theme_white {
+    color: #ffffff;
+}
+
+.year_theme_brown {
+    color: #E5D3AE;
+}
+
+.year_theme_dark-brown {
+    color: #3e3336;
+}
