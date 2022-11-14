@@ -7,9 +7,9 @@
 + CSS
 
 ## Реализация
-+ Проект собран по макету из [Photoshop]();
-+ Grid-верстка;
-+ Адаптивная верстка (Desktop First);
++ Проект собран по макету из [Photoshop](http://people.drweb.com/people/e.chuikov/incoming/1st_3.psd.zip);
++ FlecBox вёрстка;
++ Адаптивная вёрстка (Desktop First);
 + Файловая структура проекта собрана по правилам Nested (БЭМ);
 + Подключение шрифтов через @font-face;
 + Медиазапросы
